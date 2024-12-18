@@ -27,8 +27,8 @@ Python Project Analyzer is a tool designed to analyze the structure of Python pr
 ## Installation
 1. Clone the repository:
    ```bash
-   git clone https://github.com/your-repo/python-project-analyzer.git
-   cd python-project-analyzer
+   git clone https://github.com/RuKapSan/wite.git
+   cd wite
    ```
 2. Install dependencies:
    ```bash
