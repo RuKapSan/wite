@@ -1,0 +1,8 @@
+README.md
+setup.py
+wite.py
+wite.egg-info/PKG-INFO
+wite.egg-info/SOURCES.txt
+wite.egg-info/dependency_links.txt
+wite.egg-info/entry_points.txt
+wite.egg-info/top_level.txt
