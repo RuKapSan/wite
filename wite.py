@@ -13,8 +13,18 @@ EXCLUDE_DIRS = {
     ".git",
 }
 
+<<<<<<< HEAD
 def is_python_file(filename: str) -> bool:
     return filename.endswith(".py") and not filename.startswith("__")
+=======
+# Функция для проверки нужного расширения файлов
+def is_valid_file(filename: str) -> bool:
+    valid_extensions = (".js", ".json", ".md", ".html", ".css")
+    invalid_extensions = (".png", ".jpg", ".jpeg", ".gif", ".bmp", ".svg")
+    if filename.endswith(invalid_extensions):
+        return False
+    return filename.endswith(valid_extensions)
+>>>>>>> parent of 8cfe877 (Update wite.py)
 
 def walk_project(root_dir: str) -> List[str]:
     files = []
