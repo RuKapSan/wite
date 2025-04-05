@@ -14,7 +14,7 @@ EXCLUDE_DIRS = {
 
 # Функция для проверки нужного расширения файлов
 def is_valid_file(filename: str) -> bool:
-    valid_extensions = (".js", ".json", ".md", ".html", ".css")
+    valid_extensions = (".js", ".json", ".md", ".html", ".css", ".py", ".yaml", ".toml")
     invalid_extensions = (".png", ".jpg", ".jpeg", ".gif", ".bmp", ".svg")
     if filename.endswith(invalid_extensions):
         return False
