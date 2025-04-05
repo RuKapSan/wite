@@ -1,0 +1,2 @@
+[console_scripts]
+wite = wite:main
